@@ -7,10 +7,20 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
+<head>
     <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+</head>
+<body>
+
+<script type="text/javascript">
+    var a = '{"name":"悟空","age":18,"title":["猴子"，"美猴王","孙悟空"]}';
+
+    var b = eval('('+a+')');
+    console.log(a);
+    console.log(b);
+
+
+
+</script>
+</body>
 </html>
